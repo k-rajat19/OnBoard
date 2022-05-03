@@ -1,0 +1,107 @@
+.section_homepages {
+  .bg-1 {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    // display: grid;
+    // place-content: center;
+    padding: 75px 0;
+  }
+  .container {
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  // .container,
+  // .container-sm,
+  // .container-md,
+  // .container-lg,
+  // .container-xl {
+  //   max-width: 1140px;
+  // }
+  .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .align-items-center {
+    align-items: center !important;
+  }
+  .col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    @media (max-width: 768px) {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+    @media (max-width: 425px) {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    @media (max-width: 768px) {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+  .cardWrappers {
+    margin-top: 40px;
+  }
+  .card {
+    border: 0;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 8px 8px;
+    padding: 21px;
+    background: #f0f4f9;
+    border: 3px solid #f0f4f9;
+    box-sizing: border-box;
+    border-radius: 7px;
+    text-align: center;
+    height: 350px;
+  }
+
+  .button {
+    // background-color: var(--color-primary);
+    // border: 0;
+    // border-radius: 0.25rem;
+    // box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+    // transition: all 0.2s ease-in-out;
+    // margin: 0 auto;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-direction: column;
+    // margin: 0 30px;
+    // padding: 30px;
+  }
+}

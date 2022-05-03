@@ -1,0 +1,41 @@
+.team-section {
+  width: 100%;
+  margin: 0 auto;
+
+  .inner-container-heading {
+    margin-bottom: 70px;
+    p {
+      font-size: var(--font-size-small);
+      text-align: center;
+      margin-bottom: 7px;
+    }
+    h2 {
+      font-size: var(--font-size-large);
+      text-align: center;
+      margin-bottom: 25px;
+      color: var(--color-text-dark);
+      @media (max-width: 768px) {
+     
+        font-size: var(--font-size-medium);
+      margin-bottom: 5px;
+
+      
+      // font-size: var(--font-size-small);
+
+    }
+    }
+
+    
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: var(--color-text-dark);
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+}

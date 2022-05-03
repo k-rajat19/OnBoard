@@ -1,0 +1,78 @@
+
+    .course-card{
+        width: 350px;
+        height: 378px;
+        color: var(--color-text-dark);
+        font-size: var(--font-size-small);
+        border: 2px solid #F1F1F1;
+        border-radius: 7px;
+        margin-bottom: 10px;
+        @media (max-width:768px){
+            margin-bottom: 25px;
+        }
+        img{
+            max-width: 100%;
+            object-fit: contain;
+        }    
+        .course-card-image-container{
+          width: 100%;
+          height: 188px;
+          border-bottom: 1px solid #F1F1F1;
+          display: flex;
+          
+      
+        }
+        .course-card-bottom-container{
+           .top{
+               padding: 15px;
+               .tutor{
+                   display: flex;
+                   align-items: center;
+                   .tutor-image{
+                       border-radius: 50%;
+                       border: 2px solid black;
+                       height: 30px;
+                       width: 30px;
+                       display: flex;
+                      
+                   }
+                   .tutor-name{              
+                       margin-left: 5px;
+                   }
+       
+               }
+               .description{
+                    margin-top: 10px;
+               }
+    
+           } 
+            .footer{
+                padding: 15px;
+                 display: flex;
+                 align-items: center;
+                 justify-content: space-between;
+                 margin-top: 17px;
+                 border-top: 1px solid #F1F1F1;
+                .feedback{
+                    display: flex;
+                    font-size: var(--font-size-small);
+                    :nth-child(1){
+                        color: var(--color-yellow);
+                    }
+                    :nth-child(2){
+                        color: var(--color-text-light);
+                        margin-left: 5px;
+                    }
+    
+                } 
+                .price{
+                    display: flex;
+                    color: var(--color-text-light);
+                    :nth-child(1){
+                        color: var(--color-text-dark);
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }

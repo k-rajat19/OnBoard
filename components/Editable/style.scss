@@ -1,0 +1,13 @@
+.editable-component {
+    position: relative;
+    border: 2px solid #4bff00;
+    width: fit-content;
+    .edit-btn {
+        position: absolute;
+        right: -18px;
+        bottom: -22px;
+
+        cursor: pointer;
+    }
+    
+}

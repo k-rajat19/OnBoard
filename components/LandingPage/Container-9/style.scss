@@ -1,0 +1,181 @@
+.lp-container-9{
+    width: 100%;
+    min-height: 70vh;
+    background: #2E2A59;
+    display: flex;
+    flex-direction: column;
+
+    
+    margin-top: 5vh;
+    // margin-bottom: 5vh;
+    
+    .lp-inner-container-wrapper{
+          width: 100%; 
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 60vh;
+        .lp-inner-container{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            width: 80%;
+            
+            // margin: auto;
+            flex-flow: row wrap;
+            
+            
+            
+        
+            
+            @media (max-width:768px){
+                // display: none;
+            
+                width: 90%;
+                justify-content: center;
+                margin-top: 15vh;
+                margin-bottom: 15vh;
+                
+    
+            }
+    
+       .lp-inner-container-1{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 35px;
+            
+            
+            width: 197px;
+            @media (max-width:768px){
+               width: 100%;
+                
+    
+            }
+            .inner-container-1-bottom{
+                  font-size: 14px;
+                  color: #FFFFFF99;
+    
+                 line-height: 28px;
+                 margin-top: 20px;
+            }
+       }
+       .lp-inner-container-2{
+        display: flex;
+        flex-direction: column;
+        @media (max-width:768px){
+            width: 100%;
+            margin-bottom: 35px;
+             
+ 
+         }
+        
+        
+           .inner-container-2-bottom{
+               display: flex;
+               flex-direction: column;
+               margin-top: 20px;
+               .ic-2-bottom-item{
+                   display: flex;
+                   margin-bottom: 15px;
+                   .ic-2-bottom-image{
+                height: 60px;
+                width: 60px;
+                border:2px solid green;
+                img{
+                    max-width: 100%;
+                    object-fit: contain;
+                }
+                   }
+                   .ic-2-bottom-text{
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 8px;
+                        :nth-child(1){
+                              font-size: 14px;
+                              color: #FFFFFF;
+    
+                              
+                        }
+                        :nth-child(2){
+                               font-size: 13px;
+                               color: #FFFFFF99;
+                               margin-top: 5px;
+                        }
+    
+                   }
+               }
+           }
+    
+       }
+       .lp-inner-container-3{
+        display: flex;
+        flex-direction: column;
+        @media (max-width:768px){
+            width: 100%;
+            margin-bottom: 35px;
+             
+ 
+         }
+        
+        .inner-container-3-bottom{
+             display: flex;
+             flex-direction: column;
+             margin-top: 20px;
+             span{
+                 margin-bottom: 15px;
+                 font-size: 14px;
+                 color: #FFFFFF99;
+             }
+        }
+    
+       }
+       .lp-inner-container-4{
+        display: flex;
+        flex-direction: column;
+        @media (max-width:768px){
+            width: 100%;
+             
+ 
+         }
+        
+        .inner-container-4-bottom{
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            .app-store-btn{
+                margin-bottom: 15px;
+            }
+        }
+    
+       }
+       .inner-container-header{
+           font-size: 20px;
+           color: #FFFFFF;
+    
+           
+    }
+    
+        }
+    }
+    .lp-footer-container{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-top: 2px solid   white;
+       min-height: 10vh;
+       color: #FFFFFFA6;
+       
+       width: 100%;
+       @media (max-width:768px){
+        font-size: 14px;
+        background: #292554;
+        border: none;
+
+         
+
+     }
+    
+       
+
+    }
+}

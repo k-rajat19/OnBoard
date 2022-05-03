@@ -1,0 +1,109 @@
+.lp-container-7{
+
+    width: 90%;
+    min-height: 100%;
+
+    // slick overriding
+    .slick-prev:before, .slick-next:before {
+        font-family: 'slick';
+        font-size: 20px;
+        line-height: 1;
+        opacity: .75;
+        color: #2E2A59;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    @media (max-width:1440px)
+{
+    width: 100%;
+
+}  
+    // overflow-x: auto;
+
+    
+    // margin-top: 5vh;
+    // margin-bottom: 5vh;
+    
+    
+    // .lp-inner-container{
+    //     display: flex;
+        
+        
+    //     width: 100%;
+    //     overflow-x: auto;
+        
+        margin:150px auto;
+        
+        
+    
+        
+    //     @media (max-width:768px){
+    //         // display: none;
+    //         // width: 90%;
+    //         // flex-flow: row wrap;
+    //         // justify-content: center;
+    //         margin-top: 15vh;
+    //         margin-bottom: 15vh;
+            
+
+    //     }
+    
+    // }
+
+    .card-container{
+        
+        
+            // flex-direction: column;
+        margin-right: 22px;
+        @media (max-width:768px){
+            margin-left: 18px;
+          
+  
+          }
+        .card-image-container{
+                 
+                 height: 80px;
+                 width: 80px;
+                 border:2px solid black;
+                 img{
+                     max-width: 100%;
+                     object-fit: contain;
+                 }
+        }
+        .card-text-container{
+          width: 347px;
+          height: 290px;
+          background: #EDF7FF;
+          display: flex;
+          flex-direction: column;
+          align-items:flex-start;
+          justify-content: center;
+          padding: 20px;
+          .text-container-1{
+              display: flex;
+              flex-direction: column;
+              margin-bottom: 30px;
+              :nth-child(1){
+               font-size: 18px;
+               color: #16215C;
+
+              }
+              :nth-child(2){
+                   font-size: 13px;
+                   
+                   color: #858E94;
+
+              }
+          }
+          .text-container-2{
+            font-size: 18px;
+            color: #403949;
+            line-height: 36px;
+
+          }
+
+
+        }
+    }
+}

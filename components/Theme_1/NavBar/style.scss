@@ -1,0 +1,29 @@
+.nav-bar{
+    
+    color: var(--color-text-dark);
+    font-size: var(--font-size-small);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    .nav-bar-container-1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      span{
+        padding: 15px;
+        
+    }
+    }
+    .nav-bar-container-2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      span{
+        padding: 15px;
+        
+    }
+    }
+}

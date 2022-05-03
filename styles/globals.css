@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+:root {
+  --font-size-large: 40px;
+  --font-size-medium: 30px;
+  --font-size-small: 16px;
+  --color-text-dark: #002147;
+  --color-text-light: #565872;
+  --color-yellow: #fdc800;
+  --color-white: #ffffff;
+  --color-light-blue: #f0f4f9;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+

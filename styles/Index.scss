@@ -1,0 +1,9 @@
+.landing-page-container {
+  // border:2px solid red;
+  overflow-x: hidden;
+  padding: 20px;
+  padding-bottom: 0px;
+  @media (max-width:768px){
+    padding: 0px;
+}
+}

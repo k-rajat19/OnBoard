@@ -1,0 +1,95 @@
+.edu-container-1 {
+  width: 100%;
+  min-height: 100%;
+  background-color: var(--color-light-blue);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .edu-nav-bar {
+    width: 80%;
+    margin: auto;
+    // margin-top: 5vh;
+    margin-bottom: 15vh;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+  .inner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+
+    margin-bottom: 20vh;
+
+    @media (max-width: 768px) {
+      // display: none;
+      flex-wrap: wrap-reverse;
+      width: 90%;
+      justify-content: center;
+      margin-top: 15vh;
+      margin-bottom: 15vh;
+    }
+    .inner-container-text {
+      color: var(--color-text-dark);
+      width: 50%;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        margin-top: 25px;
+      }
+      .inner-container-subheading {
+        font-size: var(--font-size-small);
+
+        @media (max-width: 768px) {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .inner-container-heading {
+        font-size: var(--font-size-large);
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        @media (max-width: 768px) {
+          text-align: center;
+          font-size: var(--font-size-medium);
+        }
+      }
+      .inner-container-btn-container {
+        @media (max-width: 768px) {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .inner-container-btn {
+          height: 50px;
+          width: 210px;
+
+          @media (max-width: 768px) {
+            width: 85vw;
+          }
+        }
+      }
+    }
+    .inner-container-img {
+      width: 445px;
+      height: 481px;
+      display: flex;
+      align-items: center;
+
+      @media (max-width: 768px) {
+        height: unset;
+      }
+      img {
+        max-width: 100%;
+        //     width: 445px;
+        // height: 481px;
+        object-fit: contain;
+      }
+    }
+  }
+}

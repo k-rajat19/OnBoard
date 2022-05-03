@@ -1,0 +1,165 @@
+.edu-container-9{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--color-light-blue);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .inner-container{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        color: var(--color-text-dark);
+        @media (max-width:768px){
+            margin-top: 25px;
+            width: 90%;
+       }
+        
+        margin-bottom: 10vh;
+        .inner-container-subscribe{
+            background-color: var(--color-white);
+            width: 100%;
+            height: 98px;
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-flow: row wrap;
+            padding: 30px;
+            @media (max-width:768px){
+                height: 100%;
+                padding: 15px;
+            }
+            .subscribe-input-wrapper{
+                //height same as `.subscribe-btn`
+                 height: 55px;
+
+                 width: 40%;
+                border-bottom:1px solid #084C9433;
+                display: flex;
+                align-items:flex-end;
+                flex-flow: row wrap;
+                
+                @media (max-width:768px){
+                     width: 100%;
+                }
+                .subscribe-input{
+                    width: 100%;
+                   outline: none;
+                   border: none;
+                
+                   color: var(--color-text-dark);
+                   
+                //    font-size: var(--font-size-medium);
+                }
+            }
+            .subscribe-btn{
+               height: 55px;
+               width: 145px;
+               @media (max-width:768px){
+                margin-top: 15px;
+           }
+            }
+        }
+        .input-container-info{
+            display: flex;
+            width: 100%;
+            
+            justify-content: space-between;
+            margin-top: 10vh;
+            flex-flow:  row wrap;
+            
+          
+            .info-item{
+               display: flex;
+               flex-direction: column;
+               
+               
+               width: 230px;
+               @media (max-width:768px){
+                margin-bottom: 30px;
+            }
+               .heading{
+                   font-size: 24px;
+                   
+               }
+               .main{
+                   
+                   display: flex;
+                   flex-direction: column;
+                   margin-top: 25px;
+                   color: var(--color-text-light);
+                   font-size: var(--font-size-small);
+                   span{
+                       margin-bottom: 15px;
+                   }
+                   .time-date{
+                      font-size: 11px;
+                      margin-top: 5px;
+                   }
+               }
+            }
+        }
+    }
+    .container-bottom{
+        width: 100%;
+        border-top: 1px solid #00214726;
+        @media (max-width:768px){
+            margin-bottom: 25px;    
+            
+        }
+      
+        .inner-container-bottom{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 25px;
+            padding-left: 0px;
+            padding-right: 0px;
+            flex-flow: row wrap;
+            @media (max-width:768px){
+                padding: 0px;
+                width: 90%;
+            }
+           .logo{
+            @media (max-width:768px){
+                
+                margin-top: 15px;
+                order: 1;
+            }
+           }
+            .copyright{
+                color: var(--color-text-light);
+                
+                @media (max-width:768px){
+                 margin-top: 15px;
+                 order: 3;
+                }
+            }
+            .social-media-icons{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                @media (max-width:768px){
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    order: 2;
+                }
+                .icon-container{
+                    height: 38px;
+                    width: 38px;
+                    border: 1px solid #CFCFCF;
+                    margin-left: 8px;
+                    @media (max-width:768px){
+                     margin-left: 0px;
+                     margin-right: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+}

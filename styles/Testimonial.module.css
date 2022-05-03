@@ -1,0 +1,61 @@
+.testimonialContainer :root {
+  --primary-color: #262953;
+  --secondary-color: #ffffff;
+  --cta-color: #ea7400;
+  --secondary-text-color: #515254;
+  --primary-text-color: #2c2e30;
+  --white-text-color: #e2e2e2;
+}
+
+.testimonialContainer {
+  width: 100%;
+  background-color: var(--primary-color);
+  min-height: 40vh;
+  padding: 8vh 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.testimonial {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.testimonialHeading {
+  font-size: 2.4rem;
+  color: var(--white-text-color);
+  margin-top: 8px;
+}
+
+.testimonialContent {
+  font-size: 2rem;
+  color: var(--white-text-color);
+  margin-bottom: 16px;
+}
+
+.testimonialAvatar {
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+}
+
+.quoteImage {
+  position: absolute !important;
+  left: 5vw;
+  top: 5vh;
+  max-width: 100px;
+}
+
+@media only screen and (max-width: 800px) {
+  .testimonial {
+    width: 90%;
+  }
+
+  .testimonialContent {
+    font-size: 1.6rem;
+  }
+}
